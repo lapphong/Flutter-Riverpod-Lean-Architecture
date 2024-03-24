@@ -424,3 +424,9 @@ t1_test:
 	--driver=integration_test/test_driver/integration_driver.dart \
 	--target integration_test/t1_login_failed.dart \
 	--flavor develop --debug --dart-define-from-file=dart_defines/develop.json
+
+t2_test:
+	flutter drive \
+	--driver=integration_test/test_driver/integration_driver.dart \
+	--target integration_test/features/login/t1_login_failed.dart \
+	--flavor develop --debug --dart-define-from-file=dart_defines/develop.json

@@ -5,7 +5,7 @@ import 'package:integration_test/integration_test.dart';
 import 'package:nalsflutter/index.dart';
 import 'package:nalsflutter/main.dart' as app;
 
-import 'common/index.dart';
+import '../../common/index.dart';
 
 void main() {
   final binding = IntegrationTestWidgetsFlutterBinding.ensureInitialized();
